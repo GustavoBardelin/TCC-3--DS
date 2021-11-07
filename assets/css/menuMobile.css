@@ -1,0 +1,127 @@
+
+
+header .menuToggle{
+    width: 40px;
+    height: 40px;
+    background-color: #00a3b3;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+    z-index: 10;
+    transition: all .5s;
+}
+
+.menuToggle span{
+    display: block;
+    width: 75%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    transform: translateY(8px);
+    transition: all .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  }
+  
+.menuToggle span::before, .menuToggle span::after {
+    content: '';
+    display: block;
+    width: 65%;
+    height: 3px;
+    border-radius: 5px;
+    float: right;
+    background: currentColor;
+    transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.menuToggle span::before{
+    margin: 10px 0 7px 0;
+}
+
+.menuToggle span::after{
+    width: 45%;
+}
+
+.menuToggle.active{
+    z-index: 100;
+    background-color: rgb(240, 13, 13);
+}
+
+.menuToggle.active span{
+    transform: scale(1) rotate(225deg) translateX(-13px) translateY(-13px);
+}
+
+.menuToggle.active span::before{
+    display: none;
+}
+
+.menuToggle.active span::after{
+    width: 100%;
+    transform: rotate(-450deg) translateY(0px) translateX(0px)
+}
+
+
+
+
+/* AÇÃO PARA MOSTRAR BOTÃO DE ABRIR/FECHAR MENU  */
+
+@media (max-width: 768px){
+    
+    .header .menuToggle{
+        display: flex;
+    }
+
+    .menu-wrapper .bgMenuActive{
+        display: none;
+    }
+
+    .menu-wrapper .bgMenuActive.active{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        animation: bgActive .3s ease forwards;
+    }
+
+    @keyframes bgActive {
+        0%{
+            visibility: hidden;
+        }
+
+        100%{
+            background-color: #222729bb;
+            visibility: visible;
+        }
+    }
+
+
+    .menu-wrapper .menu-link-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 10px;
+        right: 0;
+        background-color: white;
+        width: 80vw;
+        height: 90vh;
+        padding-top: 80px;
+        border-radius: 50px 0 0 50px;
+        transform: translateX(100%); 
+        transition: all .4s ease-in-out;
+        visibility: hidden;
+    }
+
+    .menu-link-wrapper.menuMobileActive{
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+        
+    .menu-link-wrapper li{
+        margin: 10px;
+    }
+
+}
