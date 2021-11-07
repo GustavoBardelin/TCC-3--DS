@@ -1,0 +1,253 @@
+@media (max-width: 991px) {
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SIDER MENSSAGES ===================================== */
+    /* ================================================================================================ */
+
+
+
+    .sec-slider-menssages .carousel .item-carousel h3 {
+        max-width: 80%;
+        font-size: 2.3em;
+    }
+
+    .sec-slider-menssages .carousel-container .btn-slides {
+        padding: 40px;
+    }
+    .sec-slider-menssages .carousel-container .btn-slides i {
+        font-size: 2.55em;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION INTRODUÇÃO ================================== */
+    /* ================================================================================================ */
+
+    .sec-introdution-home .img-fundo {
+        opacity: .2;
+    }
+    .sec-introdution-home .content {
+        padding: 60px 0;
+    }
+    .sec-introdution-home .content h2.sec-title {
+        margin-bottom: 125px;
+        color: #00beba;
+    }
+    .sec-introdution-home .content p {
+       margin: 0px;
+       align-self: center;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION QUEM SOMOS ===================================*/
+    /* ================================================================================================ */
+
+    .sec-quem-somos .content .text-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sec-quem-somos .content .text-wrapper p {
+        max-width: 675px;
+    }
+
+
+    /* ================================================================================================ */
+    /* ================================== INICIO SECTION NOSSO OBJETIVO ================================*/
+    /* ================================================================================================ */
+
+
+    .sec-nosso-objetivo .content .img-fundo{
+        width: 580px;
+        height: 399px;
+        opacity: .2;
+    }
+    
+    .sec-nosso-objetivo .content .text-wrapper p {
+        padding: 0 10px;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION SEJA DOADOR ================================= */
+    /* ================================================================================================ */
+
+    .sec-seja-doador .content{
+        justify-content: center;
+    }
+
+    .sec-seja-doador .content .seja-doador-cards-wrapper {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0px;
+    }
+    
+    .sec-seja-doador .content .seja-doador-cards-wrapper .card-seja-doador {
+        width: 300px;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION CONTATO ======================================*/
+    /* ================================================================================================ */
+    
+    .sec-contato .content .form-wrapper{
+        padding: 40px 40px 70px 40px;
+    }
+    
+    .sec-contato .content .form-wrapper form input[type="submit"]{
+        font-size: 1.4em;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO CSS FOOTER ===========================================*/
+    /* ================================================================================================ */
+    
+    .footer .footer-card-social-media{
+        border-radius: 20px;
+        margin-bottom: 70px;
+    }
+    
+    .footer .footer-card-social-media .img-wrapper{
+        width: auto;
+        height: 250px;
+    } 
+    
+    .footer .footer-card-social-media .social-media-wrapper .social-media li{
+        margin: 0 20px;
+    }
+    
+    .footer .footer-card-social-media .social-media-wrapper .social-media img{
+        height: 40px;
+    }
+    
+    .footer .content .footer-nossas-informacoes .informacoes-contato{
+        margin-bottom: 50px;
+    }
+    
+    .footer .content .footer-nossas-informacoes .informacoes-contato .informacoes .contact-icon i{
+        font-size: 2em;
+    }
+
+    .footer .content .footer-nossas-informacoes .footer-links{
+        padding-left: 0px;
+    }
+    
+    .footer .content .footer-nossas-informacoes .footer-links .links-menu-title h5{
+        font-size: 1.4em;
+    }
+    
+    .footer .content .footer-nossas-informacoes .footer-links .wrapper-parceiros h6 {
+        font-size: 1.2em;
+    }
+
+    .footer .content .footer-nossas-informacoes .footer-links .wrapper-parceiros .parceiros .align-social{
+        margin-bottom: 25px;
+    }
+    
+    .footer .content .footer-nossas-informacoes .footer-links .wrapper-parceiros .parceiros .align-social li a i{
+        font-size: 2em;
+    }
+    
+    .footer .content .footer-nossas-informacoes .footer-links .wrapper-parceiros .parceiros .align-social li a i:hover{
+        transform: scale(1.2);
+    }
+    
+    .footer .content .footer-nossas-informacoes .footer-links .wrapper-links-menu .links-menu li{
+        margin-bottom: 20px;
+    }
+    
+    .footer .content .footer-nossas-informacoes .footer-links .wrapper-links-menu .links-menu a{
+        font-size: 1.15em;
+    }
+    
+    .footer-copyright .container{
+        justify-content: center !important;
+    }
+    
+    .footer .footer-copyright p,
+    .footer .footer-copyright ul{
+        font-size: 1.1em;
+    }
+
+    .footer .footer-copyright ul{
+        display: none !important ;
+    }
+ 
+}
+
+
+
+@media (max-width: 767px){
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SIDER MENSSAGES ===================================== */
+    /* ================================================================================================ */
+
+    .sec-slider-menssages .carousel .item-carousel h3 {
+        max-width: 75%;
+        font-size: 1.7em;
+    }
+
+    .sec-slider-menssages .carousel-container .btn-slides {
+        padding: 20px;
+    }
+    .sec-slider-menssages .carousel-container .btn-slides i {
+        font-size: 2.55em;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION INTRODUÇÃO ================================== */
+    /* ================================================================================================ */
+
+    .sec-introdution-home .content p {
+       margin: 0px;
+       align-self: center;
+       padding: 0 10px;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION QUEM SOMOS ===================================*/
+    /* ================================================================================================ */
+    
+    .sec-quem-somos .content .img-fundo{
+        width: 500px;
+        height: 327px;
+        align-self: center;
+        margin: 0px;
+        opacity: .2;
+    }
+    
+    .sec-quem-somos .content .text-wrapper p {
+        padding: 0 10px;
+    }
+
+
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION SEJA DOADOR ================================= */
+    /* ================================================================================================ */
+
+    .sec-seja-doador .content .seja-doador-cards-wrapper {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0px;
+    }
+    
+    .sec-seja-doador .content .seja-doador-cards-wrapper .card-seja-doador {
+        width: 375px;
+        padding: 50px 33px 30px 33px;
+    }
+
+    .sec-seja-doador .content .seja-doador-cards-wrapper div.card-seja-doador:first-of-type{
+        margin-bottom: 50px;
+    }
+
+
+
+    /* FALTA TERMINAR A RESPONSIVIDADE A PARTIR DAQUI */
+
+}

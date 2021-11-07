@@ -128,7 +128,7 @@ html,body {
   width: 100%;
   height: 300px;
   position: relative;
-  top: 80px;
+  margin-top: 80px;
 }
 
 .sec-slider-menssages .carousel-container {
