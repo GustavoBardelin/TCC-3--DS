@@ -1,0 +1,95 @@
+/* --------------------------------------------------------------------------------------------------------- */
+/*Import css principal para pegar algumas estilizações já definida*/
+@import url('main.css');
+
+/* ================================================================================================ */
+/* =================================== INICIO CSS SECTION DOE OUTROS ===============================*/
+/* ================================================================================================ */
+
+
+section.doe-outros{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
+
+section.doe-outros .content h2.sec-title{
+    margin-bottom: 100px;
+    color: #ff6b01;
+}
+
+section.doe-outros .content .text-wrapper{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section.doe-outros .content .text-wrapper h4{
+    font-family: var(--font-secundary);
+}
+
+section.doe-outros .content .text-wrapper p{
+    font-family: var(--font-primary);
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao{
+    min-width: 250px;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(182, 0, 0, 0.438);
+    padding: 40px 20px;
+    margin: 20px 5px;
+    overflow: hidden;
+    transition: all .5s ease-in;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao .more-information{
+    display: none;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao.active{
+    background-color: darkgray;
+    position: absolute;
+    width: 80%;
+    height: auto;
+    overflow: visible;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao.active .more-information{
+    display: block;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao h5{
+    font-family: var(--font-secundary);
+    font-size: 1.5em;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao p{
+    font-family: var(--font-primary);
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 20px;
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao ul li{
+    font-family: var(--font-primary);
+}
+
+section.doe-outros .content .wrapper-cards-instituicoes .card-instituicao ul li i{
+    margin-right: 10px;
+    color: #00beba;
+}

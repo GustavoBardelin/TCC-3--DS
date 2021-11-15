@@ -248,6 +248,37 @@
 
 
 
-    /* FALTA TERMINAR A RESPONSIVIDADE A PARTIR DAQUI */
+    /* ================================================================================================ */
+    /* =================================== INICIO SECTION CONTATO ======================================*/
+    /* ================================================================================================ */
+
+
+    .sec-contato .content .form-wrapper{
+        padding: 40px 40px 70px 40px;
+    }
+
+    .sec-contato .content .form-wrapper form .input-name{
+        display: block;
+    }
+    
+    .sec-contato .content .form-wrapper form .input-name label{
+        width: 100%;
+    } 
+    
+
+}
+
+
+
+@media (max-width: 575px){
+
+    .footer .footer-card-social-media{
+        width: 90%;
+    }
+
+    .footer .content .footer-nossas-informacoes .informacoes-contato .informacoes .contact-icon i{
+        display: none;
+    }
+      
 
 }
